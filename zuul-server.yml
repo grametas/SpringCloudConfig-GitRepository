@@ -7,7 +7,7 @@ zuul:
     connect-timeout-millis: 20000
     socket-timeout-millis: 20000
     routes: 
-      sample-service:
+      echo-service:
         path: /echo/**
         url: http://localhost:8091
         stripPrefix: false
