@@ -1,11 +1,8 @@
 server:
-  port:8080
+  port: 8080
   
 zuul:
   ignoredServices: '*'
-  hosts:
-    connect-timeout-millis: 20000
-    socket-timeout-millis: 20000
   routes: 
      echo-service:
        path: /echo/**
