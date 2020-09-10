@@ -8,6 +8,6 @@ zuul:
     socket-timeout-millis: 20000
   routes: 
      echo-service:
-     path: /echo/**
-     url: http://localhost:8091
+       path: /echo/**
+       url: http://localhost:8091
 
